@@ -61,7 +61,7 @@ const nfcRadius = 15;
 
 // Функция для рисования главного героя на холсте
 const heroImage = new Image();
-heroImage.src = 'stalker.jpg'; // Укажите путь к изображению
+heroImage.src = "stalker.jpg"; // Укажите путь к изображению
 
 
 
@@ -160,7 +160,7 @@ canvas.addEventListener('contextmenu', (e) => {
 
 // NFC
 const nfcImage = new Image();
-nfcImage.src = '/nfc.jpg'; // Укажите путь к изображению
+nfcImage.src = "nfc.jpg"; // Укажите путь к изображению
 
 function drawNfc() {
     const newWidth = 40;
@@ -170,7 +170,7 @@ function drawNfc() {
 
 // Mochila
 const mochilaImage = new Image();
-mochilaImage.src = '/mochila.png';
+mochilaImage.src = "mochila.png";
 
 function drawMochila() {
     ctx.drawImage(mochilaImage, mochilaX - mochilaRadius, mochilaY - mochilaRadius);
