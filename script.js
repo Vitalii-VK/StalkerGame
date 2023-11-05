@@ -61,7 +61,7 @@ const nfcRadius = 15;
 
 // Функция для рисования главного героя на холсте
 const heroImage = new Image();
-heroImage.src = '/stalker.jpg'; // Укажите путь к изображению
+heroImage.src = 'stalker.jpg'; // Укажите путь к изображению
 
 
 
